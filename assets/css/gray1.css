@@ -1,0 +1,161 @@
+.section {
+    padding: 10px 0;
+}
+
+.section--1 {
+    /* padding: 100px 0; */
+    /* background: #161616; */
+    margin-left: 118px;
+    background: #333;
+}
+
+.section--2 {
+    /* padding: 200px 0; */
+    background: #4C327F;
+}
+
+.section--3 {
+    /* padding: 200px 0; */
+    background: #E83878;
+}
+
+.section--4 {
+    /* margin-bottom: 0px; */
+    /* padding: 10px 0; */
+    background: #E83878;
+}
+
+.section--5 {
+    background-color: #fff;
+}
+
+
+
+.devices {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.devices__item {
+    display: block;
+}
+
+.devices__item--iphone {
+    position: absolute;
+    bottom: 17px;
+    right: -68px;
+    z-index: 1;
+}
+
+
+
+
+
+
+/* Reviews */
+.reviews {
+    margin-top: -160px;
+    margin-bottom: -110px;
+    padding: 180px 0;
+    /* padding: 0 0px; */
+    position: relative;
+    
+}
+
+.reviews__item {
+    padding-left: 305px;
+    position: relative;
+    /* background: #E83878; */
+}
+
+.reviews__photo {
+/* height: 100px; */
+width: 25%;
+
+    border: 0px solid #95e1d3;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.reviews__text {
+    margin-left: 10px;
+}
+
+
+
+.windows {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: center;
+}
+
+.windows__item {
+    /* background-color: #333; */
+}
+
+
+.windows__text1 {
+    /* background-color: #000; */
+     /* float: center; */
+     position: relative;
+     top: 10px;
+     z-index: 1;
+     -webkit-text-fill-color: #000;
+      /* background: #E83878;  */
+      /* background-color: #fff */
+ }   
+ 
+.windows__text2 {
+   /* background-color: #000; */
+    /* float: center; */
+    position: relative;
+    top: -10px;
+    z-index: 1;
+    -webkit-text-fill-color: #000;
+     /* background: #E83878;  */
+    /* background-color: #fff */
+}   
+
+
+
+
+
+
+.section__t {
+    color: rgb(143, 143, 143);
+}
+.section__tg {
+    color:rgb(0, 227,66);
+}
+.section__t2 {
+    color: rgb(143, 143, 143);
+}
+
+
+.sectio__s2 {
+    /* background-color: #000; */
+     /* float: center; */
+     bottom: 123px;
+     position: relative;
+     right: -600px;
+}
+.section__t2 {  
+position: relative;
+bottom: 123px;
+right: -600px;
+margin-bottom: -65px;
+-webkit-text-fill-color: rgb(245, 78, 78);
+}
+
+
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: center; */
+}
