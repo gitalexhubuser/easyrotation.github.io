@@ -11,7 +11,8 @@
 
 .section--2 {
     /* padding: 200px 0; */
-    background: #4C327F;
+    /* background: #4C327F; */
+    background: rgb(90, 21, 149)
 }
 
 .section--3 {
@@ -23,6 +24,7 @@
     /* margin-bottom: 0px; */
     /* padding: 10px 0; */
     background: #E83878;
+    /* background: rgb(202, 0, 67); */
 }
 
 .section--5 {
