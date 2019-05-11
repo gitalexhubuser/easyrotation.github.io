@@ -161,3 +161,8 @@ margin-bottom: -65px;
     justify-content: space-between;
     /* justify-content: center; */
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: 300px 300px
+}
