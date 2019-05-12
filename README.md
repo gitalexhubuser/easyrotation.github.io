@@ -2,18 +2,23 @@
 
 A jQuery plugin that assists scrolling and snaps to sections. Touch optimised.
 
-## Слово
-`$.scrollify.disable()`
+## Гайд по использованию
+Нажать кнопку `из папки scripts`
 
-## Ссылки
+## Полезные ссылки
 [Scroll animations](https://projects.lukehaas.me/scrollify/examples/apple)
 
 ## Маркосы для проверки
 ```lua
 print("123");
 ```
+Сперва в самой игре, в чате вбейте `protected function`
 ```lua
-print("123");
+/run JumpOrAscendStart();
+```
+Тепеь вбиваем эту же команду, но уже в поле ввода скриптов самой программы `2-я вкладка ER`
+```lua
+/run JumpOrAscendStart();
 ```
 
 ## предложение и ссылка
