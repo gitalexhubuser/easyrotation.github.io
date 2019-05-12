@@ -43,12 +43,6 @@ end
 local f = CreateFrame("Frame")
 f:SetScript("OnUpdate", onUpdate)
 ```
-
-## предложение и ссылка
-If you're working with Scrollify and having issues, please post your questions to [Stackoverflow](http://stackoverflow.com) and tag it with 'jquery-scrollify'.
-
-
-
 ## Часто задаваемые вопросы
 - На каких версиях игры работает?
 
@@ -57,7 +51,3 @@ If you're working with Scrollify and having issues, please post your questions t
 - Смогу ли я активировать ключ на ещё одном своём устройстве?
 
 Нет, т.к идёт привязка по железу!
-
-- Где можно приобрести программу?
-
-
