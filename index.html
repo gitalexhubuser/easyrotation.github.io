@@ -32,11 +32,11 @@
 <script>
 var cssSelector = anime ({
 targets: ".sectio__s",
-translateX: -20,
+translateX: -20, 
 //autoplay: true,
 loop: false,
 //easing: 'linear',
-dutation: 100,
+//dutation: 1000,
 //direction: 'alternate'
 });
 </script>
@@ -97,13 +97,14 @@ targets: ".reviews__text",
 translateX: 20,
 direction: 'alternate',
 //easing: 'easeInOutSine',    
-//autoplay: true,
+autoplay: true,
 loop: false,
 //easing: 'linear',
 // easing: 'steps(10)',
 // dutation: 800,
 //direction: 'alternate'
 });
+document.querySelector('.reviews__text').onclick = cssSelector.restart;
 </script>
 
 
