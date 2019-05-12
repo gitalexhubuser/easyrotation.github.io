@@ -3,6 +3,9 @@
 A jQuery plugin that assists scrolling and snaps to sections. Touch optimised.
 
 ## Гайд по использованию
+Сразу же после установки, при первом запуске программа попросит ввести ваш ключ `который приобретается отдельно`.
+Ключ хранится в реестре по адресу `HKEY_CURRENT_USER/System/ER`
+
 Нажать кнопку `из папки scripts`
 
 ## Полезные ссылки
@@ -12,11 +15,17 @@ A jQuery plugin that assists scrolling and snaps to sections. Touch optimised.
 ```lua
 print("123");
 ```
-Сперва в самой игре, в чате вбейте `protected function`
+Сперва в самой игре, в чате вбейте
 ```lua
 /run JumpOrAscendStart();
 ```
-Тепеь вбиваем эту же команду, но уже в поле ввода скриптов самой программы `2-я вкладка ER`
+Обратите внимание это у нас `blizzard protected function`
+
+Теперь вбиваем эту же команду, но уже в поле ввода скриптов самой программы `2-я вкладка ER`
+```lua
+/run JumpOrAscendStart();
+```
+Пример функции
 ```lua
 /run JumpOrAscendStart();
 ```
