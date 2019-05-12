@@ -27,15 +27,37 @@ print("123");
 ```
 Пример функции
 ```lua
-/run JumpOrAscendStart();
+JumpOrAscendStart();
+```
+```lua
+--[[-----------------------------------------------
+Раз в 3 сек.
+--]]-----------------------------------------------
+local function onUpdate(self, elapsed)
+UpDate = 0;
+local UpDate = UpDate + elapsed;
+  if (UpDate > 3) then
+    print("123")
+  end
+end
+local f = CreateFrame("Frame")
+f:SetScript("OnUpdate", onUpdate)
 ```
 
 ## предложение и ссылка
 If you're working with Scrollify and having issues, please post your questions to [Stackoverflow](http://stackoverflow.com) and tag it with 'jquery-scrollify'.
 
+
+
 ## Часто задаваемые вопросы
 - На каких версиях игры работает?
 
-Только 335а 12340
+Только 3.3.5а 12340
+
+- Смогу ли я активировать ключ на ещё одном своём устройстве?
+
+Нет, т.к идёт привязка по железу!
 
 - Где можно приобрести программу?
+
+
