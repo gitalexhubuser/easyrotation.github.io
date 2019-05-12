@@ -1,7 +1,7 @@
 // tabs
 
-var tabLinks = document.querySelectorAll(".tablinks");
-var tabContent = document.querySelectorAll(".tabcontent");
+var tabLinks = document.querySelectorAll(".container");
+var tabContent = document.querySelectorAll(".container");
 
 
 tabLinks.forEach(function(el) {
