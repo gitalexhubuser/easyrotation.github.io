@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="assets/css/gray1.css">
 
 <!-- <script src="assets/js/js.js"></script> -->
+<script src="assets/js/anime.min.js"></script>
 
 <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
 
@@ -19,37 +20,39 @@
 
 
 <section class="section section--1">
-<div class="container">
-</div class="section__header">
+
+<div class="section__header"></div>
 <h1 class="sectio__s">ER - EasyRotation</h1>
 <h3 class="section__t">Инжектор lua кода & скриптов для World of Warcraft</h3>
-</div>
+
 </div>
 </section>
 
 
-
-<style>
-.section--1 {
-    margin-left: 118px;
-    background: #333;
-}
-</style>
-<div id="section--1 "></div>
-
-<script src="assets/js/anime.min.js"></script>
 <script>
 var cssSelector = anime ({
-targets: '.section--1',
-translateX: -100,
+targets: ".sectio__s",
+translateX: -20,
 //autoplay: true,
-loop: true,
-asing: 'linear',
-dutation: 1000,
-direction: 'alternate'
+loop: false,
+//easing: 'linear',
+dutation: 100,
+//direction: 'alternate'
 });
-document.querySelector('.section--1').onclick = cssSelector.restart;
 </script>
+
+<script>
+var cssSelector = anime ({
+targets: ".section__t",
+translateX: -20,
+//autoplay: true,
+loop: false,
+//easing: 'linear',
+dutation: 100,
+//direction: 'alternate'
+});
+</script>
+
 
 
 
@@ -70,6 +73,41 @@ document.querySelector('.section--1').onclick = cssSelector.restart;
 
 </div>
 </div>
+
+
+
+
+<!-- Animation of pictures -->
+<script>
+var cssSelector = anime ({
+targets: '.reviews__photo',
+translateX: -10,
+//autoplay: true,
+loop: true,
+easing: 'linear',
+dutation: 20,
+direction: 'alternate'
+});
+document.querySelector('.reviews__photo').onclick = cssSelector.restart;
+</script>
+
+<script>
+var cssSelector = anime ({
+targets: ".reviews__text",
+translateX: 20,
+direction: 'alternate',
+//easing: 'easeInOutSine',    
+//autoplay: true,
+loop: false,
+//easing: 'linear',
+// easing: 'steps(10)',
+// dutation: 800,
+//direction: 'alternate'
+});
+</script>
+
+
+
 
 
 
@@ -108,23 +146,40 @@ document.querySelector('.section--1').onclick = cssSelector.restart;
 
 
 
+<!-- Animation of pictures -->
+<script>
+var cssSelector = anime ({
+targets: ".windows__item",
+translateX: -80,
+//autoplay: true,
+loop: false,
+//easing: 'linear',
+dutation: 100,
+//direction: 'alternate'
+});
+</script>
+
 
 
 <section class="section section--1">
-    <div class="container">
-
-</div class="section__header">
-    <h1 class="sectio__s">Список поддерживаемых серверов:</h1>
-    <h3 class="section__tg">- WowCircle.com</h3>
-    <h3 class="section__tg">- uWow.biz</h3>
-    <h3 class="section__tg">- Warmane.com</h3>
-
-<!-- <h1 class="sectio__s2">Список не поддерживаемых серверов:</h1>
-    <h3 class="section__t2">- Sirus.su</h3>
-</div> -->
-
+        <div class="container">
+    
+    </div class="section__header">
+    
+    <div class="grid">
+        <h1 class="sectio__s">Список поддерживаемых серверов:</h1>
+        <h1 class="sectio__s2">Список не поддерживаемых серверов:</h1>
+        <h3 class="section__tg">- WowCircle.com</h3>
+        <h3 class="section__t2">- Sirus.su</h3>
+        <h3 class="section__tg">- uWow.biz</h3>
+        <div></div>
+        <h3 class="section__tg">- Warmane.com</h3>
+    
     </div>
-</section>
+    
+    </div>
+    </div>
+    </section>
 
 
 
@@ -146,25 +201,7 @@ document.querySelector('.section--1').onclick = cssSelector.restart;
 
 
 
-<section class="section section--1">
-    <div class="container">
 
-</div class="section__header">
-
-<div class="grid">
-    <h1 class="sectio__s">Список поддерживаемых серверов:</h1>
-    <h1 class="sectio__s2">Список не поддерживаемых серверов:</h1>
-    <h3 class="section__tg">- WowCircle.com</h3>
-    <h3 class="section__t2">- Sirus.su</h3>
-    <h3 class="section__tg">- uWow.biz</h3>
-    <div></div>
-    <h3 class="section__tg">- Warmane.com</h3>
-
-</div>
-
-</div>
-</div>
-</section>
 
 
 
