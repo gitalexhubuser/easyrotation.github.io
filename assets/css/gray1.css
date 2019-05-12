@@ -5,8 +5,9 @@
 .section--1 {
     /* padding: 100px 0; */
     /* background: #161616; */
-    margin-left: 118px;
-    background: #333;
+
+    /* margin-left: 118px;
+    background: #333; */
 }
 
 .section--2 {
@@ -147,7 +148,6 @@ width: 25%;
      position: relative;
      right: -600px; */
 }
-
 .section__t2 {  
 /* position: relative;
 bottom: 123px;

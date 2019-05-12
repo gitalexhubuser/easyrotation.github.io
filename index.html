@@ -6,8 +6,7 @@
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/gray1.css">
 
-<script src="assets/js/js.js"></script>
-<script src="assets/js/anime.min.js"></script>
+<!-- <script src="assets/js/js.js"></script> -->
 
 <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
 
@@ -20,22 +19,39 @@
 
 
 <section class="section section--1">
-    <div class="container">
-
+<div class="container">
 </div class="section__header">
 <h1 class="sectio__s">ER - EasyRotation</h1>
 <h3 class="section__t">Инжектор lua кода & скриптов для World of Warcraft</h3>
 </div>
-
-    </div>
+</div>
 </section>
 
+
+
+<style>
+.section--1 {
+    margin-left: 118px;
+    background: #333;
+}
+</style>
+<div id="section--1 "></div>
+
+<script src="assets/js/anime.min.js"></script>
 <script>
 var cssSelector = anime ({
-targets: 'sectio__s',
-translateX: -100
+targets: '.section--1',
+translateX: -100,
+//autoplay: true,
+// loop: false,
+// easing: 'linear',
+// dutation: 2000,
+// direction: 'alternate'
 });
+document.querySelector('.section--1').onclick = cssSelector.restart;
 </script>
+
+
 
 
 
