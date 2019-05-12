@@ -165,7 +165,7 @@ color: rgb(245, 78, 78);
 
 .grid {
     display: grid;
-    grid-template-columns: 40% 50%;
-    /* grid-template-columns: 1fr 1fr; */
+    /* grid-template-columns: 40% 50%; */
+    grid-template-columns: 1fr 1fr;
     /* grid-gap: 5%; */
 }
