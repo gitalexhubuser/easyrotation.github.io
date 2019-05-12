@@ -1,6 +1,6 @@
-# [ER EasyRotation](https://projects.lukehaas.me/scrollify)
-
-A jQuery plugin that assists scrolling and snaps to sections. Touch optimised.
+# [ER EasyRotation](http://easyrotation.pro)
+Данная программа позволит вам использовать все прелести lua языка, в рамках игры World of Warcraft. Можно читерить на аренах, использовать аторотацию в PvE, или написать собственного аукцион бота. И все это в обход Blizzard Protect Code.
+На данный момент у нас в наличии имеется достаточно ротаций на любой класс и спек.
 
 ## Гайд по использованию
 Сразу же после установки, при первом запуске программа попросит ввести ваш ключ `который приобретается отдельно`.
@@ -9,7 +9,7 @@ A jQuery plugin that assists scrolling and snaps to sections. Touch optimised.
 Нажать кнопку `из папки scripts`
 
 ## Полезные ссылки
-[Scroll animations](https://projects.lukehaas.me/scrollify/examples/apple)
+[1](https://projects.lukehaas.me/scrollify/examples/apple)
 
 ## Маркосы для проверки
 ```lua
@@ -34,6 +34,8 @@ print("123");
 If you're working with Scrollify and having issues, please post your questions to [Stackoverflow](http://stackoverflow.com) and tag it with 'jquery-scrollify'.
 
 ## Часто задаваемые вопросы
-- Do I have to use the section element for Scrollify sections?
+- На каких версиях игры работает?
 
-No, Scrollify sections have no relation to the section element. Scrollify sections can be any element you want.
+Только 335а 12340
+
+- Где можно приобрести программу?
