@@ -12,11 +12,26 @@
 <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
 
 <title>ER 2019</title>
+
+<style>
+.progress {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 8px;
+    background-color: rgb(90, 21, 149);
+    z-index: 2;
+}
+</style>
 </head>
+
+
+
+
 <body>
 
-
-
+<div class="progress"></div>
 
 
 <section class="section section--1">
@@ -104,7 +119,7 @@ loop: false,
 // dutation: 800,
 //direction: 'alternate'
 });
-document.querySelector('.reviews__text').onclick = cssSelector.restart;
+//document.querySelector('.reviews__text').onclick = cssSelector.restart;
 </script>
 
 
@@ -207,6 +222,6 @@ dutation: 100,
 
 
 
-
+<script src="assets/js/main.js"></script>
 </body>
 </html>
